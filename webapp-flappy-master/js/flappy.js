@@ -84,7 +84,7 @@ function update() {
   pipes,
   gameOver);
 
-  if (player.body.y < 0 || player.body.y > 400) {
+  if (player.y < 0 || player.y > 400) {
   gameOver();
   }
 
