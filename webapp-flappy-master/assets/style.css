@@ -1,0 +1,54 @@
+#back{
+text-align: center;
+}
+
+
+h1 {
+ color: darkblue;
+ text-align: center;
+}
+
+.link {
+text-align: left;
+font-size: 20px;
+font-style: italic;
+font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#map {
+image-orientation: center;
+
+}
+
+
+#bill {
+font-size: 20px;
+color: black;
+font-family: Agency FB;
+text-align: left;
+}
+
+#welcome {
+text-align: center;
+
+}
+
+
+body {
+background-image:url("hoenn.png");
+
+}
+
+#game {
+text-align: center;
+}
+canvas {
+padding: 0;
+margin: auto;
+display: block;
+width:800px
+
+}
+
+
+}
