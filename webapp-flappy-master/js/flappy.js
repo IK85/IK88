@@ -85,7 +85,6 @@ function update() {
   gameOver);
 
   if (player.y < 0 || player.y > 400) {
-    console.log("GameOver");
     gameOver();
     
   }
@@ -111,13 +110,6 @@ function changeScore(){
   score=score+1;
  labelScore.setText(score.toString());
 
-
-}
-
-function boundaryChecker() {
-  if (player.body.y < 0|| player.body.y > 400) {
-    gameOver();
-  }
 
 }
 
