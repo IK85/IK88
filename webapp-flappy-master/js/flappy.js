@@ -95,7 +95,7 @@ function update() {
 function clickHandler(event) {
   game.add.sprite(event.x, event.y, "Flapper");
   game.add.text(event.x+50, event.y, "Virus Installed", {font: "30px Agency FB", fill: "#000000"});
-
+ playerJump();
 
 }
 
