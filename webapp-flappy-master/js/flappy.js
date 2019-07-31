@@ -111,7 +111,7 @@ function changeScore(){
 }
 
 function boundaryChecker() {
-  if (player.body.y < 0||400 > player.body.y) {
+  if (player.body.y < 0|| player.body.y > 400) {
     gameOver();
   }
 
