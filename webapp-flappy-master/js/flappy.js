@@ -86,6 +86,7 @@ function update() {
 
   if (player.y < 0 || player.y > 400) {
   gameOver();
+    console.log("GameOver"):
   }
 
 }
