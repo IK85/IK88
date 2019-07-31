@@ -84,7 +84,9 @@ function update() {
   pipes,
   gameOver);
 
-  boundaryChecker();
+  if (player.body.y < 0 || player.body.y > 400) {
+  gameOver();
+  }
 
 }
 
