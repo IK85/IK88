@@ -61,6 +61,8 @@ function create() {
 
     // set the game colour of the scene
   game.input.onDown.add(clickHandler);
+  
+  game.input.onDown.add(playerJump);
 
  game.input.keyboard
  .addKey(Phaser.Keyboard.SPACEBAR)
